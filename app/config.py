@@ -22,8 +22,8 @@ class Settings(BaseSettings):
     jwt_issuer: str = "ioka-flight-booking"
     jwt_audience: str = "ioka-agents"
     jwt_ttl_minutes: int = 60
-    default_agent_email: str = "agent@ioka.local"
-    default_agent_password: str = "ChangeMe123!"
+    default_agent_email: str = "diaskasymzhan@gmail.com"
+    default_agent_password: str = "abc12345!"
     default_agent_balance: float = 10_000_000.0
     auto_create_schema: bool = True
 
