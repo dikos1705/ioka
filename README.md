@@ -55,8 +55,8 @@ docker compose up --build
 Тестовый агент:
 
 ```text
-agent@ioka.local
-ChangeMe123!
+diaskasymzhan@gmail.com
+abc12345!
 ```
 
 Файл `.env.docker` содержит только локальные значения. Перед production-деплоем обязательно передайте секреты через Vault/Kubernetes Secrets и смените `JWT_SECRET` и пароль агента.
@@ -80,7 +80,7 @@ Swagger будет доступен на <http://localhost:8010/docs>.
 ```bash
 curl -X POST http://localhost:8000/travel/auth/agent/login \
   -H "Content-Type: application/json" \
-  -d '{"email":"agent@ioka.local","password":"ChangeMe123!"}'
+  -d '{"email":"diaskasymzhan@gmail.com","password":"abc12345!"}'
 ```
 
 Дальнейшая последовательность:
